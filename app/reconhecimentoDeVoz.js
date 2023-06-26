@@ -20,3 +20,5 @@ window.SpeechRecognition = window.SpeechRecognition || webkitSpeechRecognition;
     exibeChuteNaTela(chute)
     verificaSeOChutePossuiUmValorValido(chute)
   }
+
+ recognition.addEventListener('end', () => recognition.start()) 

@@ -26,8 +26,15 @@ h1 {
 
 }
 
+h2 {
+    font-size: 100px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    color:rgb(19, 4, 103)
+}
+
 h3 {
-    font-size: 2em;
+    font-size: 3em;
     margin-top: 20px;
 }
 

@@ -3,7 +3,7 @@
 
 :root {
     --font-family: 'Montserrat', sans-serif;
-    --bg-color: #0aa1dd ;
+    --bg-color: #00CED1 ;
     --primary-color: #e8f9fd ;
 }
 
@@ -27,10 +27,10 @@ h1 {
 }
 
 h2 {
-    font-size: 100px;
+    font-size: 50px;
     text-transform: uppercase;
     font-weight: bolder;
-    color:rgb(19, 4, 103);
+    color:#008080;
 }
 
 h3 {
@@ -61,6 +61,11 @@ h3 {
 }
 
 .btn-jogar:hover {
-    background-color: rgb(19, 4, 103);
+    background-color:#008B8B;
     color:var(--primary-color);
+}
+
+#confetti-canvas {
+    position: absolute;
+    top: 0;
 }

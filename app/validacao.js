@@ -20,6 +20,9 @@ function verificaSeOChutePossuiUmValorValido(chute){
         document.body.innerHTML = `
         <h2>Voçê acertou!!!!!</h2>
         <h3> o número secreto era ${numeroSecreto}</h3>
+
+        <button id="jogar-novamente" class="btn-jogar">Jogar novamente</button>
+        
         `
     } else if (numero > numeroSecreto){
         elementoChute.innerHTML += `

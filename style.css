@@ -1,10 +1,10 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap');
 
 :root {
     --font-family: 'Montserrat', sans-serif;
-    --bg-color: #00CED1 ;
-    --primary-color: #e8f9fd ;
+    --bg-color: #00CED1;
+    --primary-color: #e8f9fd;
+
 }
 
 body {
@@ -16,26 +16,64 @@ body {
     align-items: center;
     justify-content: center;
     text-align: center;
-    margin: 0;
+    margin: 15px;
     font-family: var(--font-family);
+
 
 }
 
 h1 {
-   font-size: 5em;
+    font-size: 2em;
 
 }
+
+@media  (min-width: 1024px ) {
+    h1 {
+        font-size: 4em;
+    }
+}
+@media (min-width: 1440px){
+    h1 {
+        font-size: 5em;
+    }
+}
+    
+
 
 h2 {
-    font-size: 50px;
+    font-size: 1.5em;
     text-transform: uppercase;
     font-weight: bolder;
-    color:#008080;
+
+}
+@media  (min-width: 1024px ) {
+    h2 {
+        font-size: 4em;
+    
+    }
+}
+@media (min-width: 1440px){
+    h2 {
+        font-size: 5em;
+    }
 }
 
+
 h3 {
-    font-size: 3em;
+    font-size: 1.5em;
     margin-top: 20px;
+
+}
+@media  (min-width: 1024px ) {
+    h3 {
+        font-size: 2em;
+    
+    }
+}
+@media (min-width: 1440px){
+    h3 {
+        font-size: 2.5em;
+    }
 }
 
 .mensagem {
@@ -45,24 +83,25 @@ h3 {
 }
 
 .box {
-    border:2px solid var(--primary-color);
+    border: 2px solid var(--primary-color);
     display: inline-block;
-    font-size: 4em;
+    font-size: 1.5em;
     padding: 10px;
-    margin: 20px;
+    margin: 0px;
+
 }
 
 .btn-jogar {
-   padding: 8px 15px; 
-   border: 0;
-   background: var(--primary-color);
-   border-radius: 5px;
-   margin-top: 20px;
+    padding: 8px 15px;
+    border: 0;
+    background: var(--primary-color);
+    border-radius: 5px;
+    margin-top: 20px;
 }
 
 .btn-jogar:hover {
-    background-color:#008B8B;
-    color:var(--primary-color);
+    background-color: #008B8B;
+    color: var(--primary-color);
 }
 
 #confetti-canvas {
